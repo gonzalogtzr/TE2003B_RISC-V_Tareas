@@ -1,0 +1,45 @@
+[*]
+[*] GTKWave Analyzer v3.4.0 (w)1999-2022 BSI
+[*] Wed May 27 22:27:29 2026
+[*]
+[dumpfile] "/home/gonzalo/Documents/TEC_RISCV/TE2003B_RISC-V_Tareas/RISC-V_MultiCycle/main_FSM_tb.vcd"
+[dumpfile_mtime] "Wed May 27 22:07:36 2026"
+[dumpfile_size] 3553
+[savefile] "/home/gonzalo/Documents/TEC_RISCV/TE2003B_RISC-V_Tareas/RISC-V_MultiCycle/fsm.gtkw"
+[timestart] 0
+[size] 1872 1001
+[pos] -27 -24
+*-5.524521 211 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1
+[treeopen] main_FSM_tb.
+[sst_width] 297
+[signals_width] 174
+[sst_expanded] 1
+[sst_vpaned_height] 296
+@28
+main_FSM_tb.clk
+main_FSM_tb.reset
+@200
+-Inputs
+@2023
+^1 /home/gonzalo/Documents/TEC_RISCV/TE2003B_RISC-V_Tareas/RISC-V_MultiCycle/dict.txt
+main_FSM_tb.op[6:0]
+@200
+-Outputs
+@28
+main_FSM_tb.ALUOp[1:0]
+main_FSM_tb.ALUSrcA[1:0]
+main_FSM_tb.ALUSrcB[1:0]
+main_FSM_tb.AdrSrc
+main_FSM_tb.Branch
+main_FSM_tb.IRWrite
+main_FSM_tb.MemWrite
+main_FSM_tb.PCUpdate
+main_FSM_tb.RegWrite
+main_FSM_tb.ResultSrc[1:0]
+@200
+-Estados
+@22
+main_FSM_tb.uut.current_state[3:0]
+main_FSM_tb.uut.next_state[3:0]
+[pattern_trace] 1
+[pattern_trace] 0

@@ -1,0 +1,20 @@
+[*]
+[*] GTKWave Analyzer v3.4.0 (w)1999-2022 BSI
+[*] Wed May 27 21:59:45 2026
+[*]
+[dumpfile] "/home/gonzalo/Documents/TEC_RISCV/TE2003B_RISC-V_Tareas/RISC-V_MultiCycle/main_FSM_tb.vcd"
+[dumpfile_mtime] "Wed May 27 21:53:43 2026"
+[dumpfile_size] 3553
+[savefile] "/home/gonzalo/Documents/TEC_RISCV/TE2003B_RISC-V_Tareas/RISC-V_MultiCycle/fsmr.gtkw"
+[timestart] 0
+[size] 1872 1001
+[pos] -27 -24
+*-5.434896 178 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1
+[sst_width] 297
+[signals_width] 86
+[sst_expanded] 1
+[sst_vpaned_height] 298
+@23
+main_FSM_tb.op[6:0]
+[pattern_trace] 1
+[pattern_trace] 0

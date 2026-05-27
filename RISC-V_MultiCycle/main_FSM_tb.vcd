@@ -1,0 +1,504 @@
+$date
+	Wed May 27 16:29:00 2026
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1s
+$end
+$scope module main_FSM_tb $end
+$var wire 2 ! ResultSrc [1:0] $end
+$var wire 1 " RegWrite $end
+$var wire 1 # PCUpdate $end
+$var wire 1 $ MemWrite $end
+$var wire 1 % IRWrite $end
+$var wire 1 & Branch $end
+$var wire 1 ' AdrSrc $end
+$var wire 2 ( ALUSrcB [1:0] $end
+$var wire 2 ) ALUSrcA [1:0] $end
+$var wire 2 * ALUOp [1:0] $end
+$var reg 1 + clk $end
+$var reg 7 , op [6:0] $end
+$var reg 1 - reset $end
+$scope module uut $end
+$var wire 1 + clk $end
+$var wire 7 . op [6:0] $end
+$var wire 1 - reset $end
+$var parameter 32 / S0 $end
+$var parameter 32 0 S1 $end
+$var parameter 32 1 S10 $end
+$var parameter 32 2 S2 $end
+$var parameter 32 3 S3 $end
+$var parameter 32 4 S4 $end
+$var parameter 32 5 S5 $end
+$var parameter 32 6 S6 $end
+$var parameter 32 7 S7 $end
+$var parameter 32 8 S8 $end
+$var parameter 32 9 S9 $end
+$var reg 2 : ALUOp [1:0] $end
+$var reg 2 ; ALUSrcA [1:0] $end
+$var reg 2 < ALUSrcB [1:0] $end
+$var reg 1 ' AdrSrc $end
+$var reg 1 & Branch $end
+$var reg 1 % IRWrite $end
+$var reg 1 $ MemWrite $end
+$var reg 1 # PCUpdate $end
+$var reg 1 " RegWrite $end
+$var reg 2 = ResultSrc [1:0] $end
+$var reg 4 > current_state [3:0] $end
+$var reg 4 ? next_state [3:0] $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+$comment Show the parameter values. $end
+$dumpall
+b1001 9
+b1000 8
+b111 7
+b110 6
+b101 5
+b100 4
+b11 3
+b10 2
+b1010 1
+b1 0
+b0 /
+$end
+#0
+$dumpvars
+b1 ?
+b0 >
+b10 =
+b10 <
+b0 ;
+b0 :
+b0 .
+1-
+b0 ,
+0+
+b0 *
+b0 )
+b10 (
+0'
+0&
+1%
+0$
+1#
+0"
+b10 !
+$end
+#5
+1+
+#10
+0+
+0-
+#15
+b1 )
+b1 ;
+0#
+b1 (
+b1 <
+b0 !
+b0 =
+0%
+b0 ?
+b1 >
+1+
+#20
+b110 ?
+0+
+b110011 ,
+b110011 .
+#25
+b10 *
+b10 :
+b0 (
+b0 <
+b10 )
+b10 ;
+b111 ?
+b110 >
+1+
+#30
+0+
+#35
+1"
+b0 )
+b0 ;
+b0 *
+b0 :
+b0 ?
+b111 >
+1+
+#40
+0+
+#45
+1#
+b10 !
+b10 =
+b10 (
+b10 <
+1%
+0"
+b1 ?
+b0 >
+1+
+#50
+0+
+#55
+b1 )
+b1 ;
+0#
+b1 (
+b1 <
+b0 !
+b0 =
+0%
+b1000 ?
+b1 >
+1+
+b10011 ,
+b10011 .
+#60
+0+
+#65
+b10 *
+b10 :
+b1 (
+b1 <
+b10 )
+b10 ;
+b111 ?
+b1000 >
+1+
+#70
+0+
+#75
+1"
+b0 (
+b0 <
+b0 )
+b0 ;
+b0 *
+b0 :
+b0 ?
+b111 >
+1+
+#80
+0+
+#85
+1#
+b10 !
+b10 =
+b10 (
+b10 <
+1%
+0"
+b1 ?
+b0 >
+1+
+#90
+0+
+#95
+b1 )
+b1 ;
+0#
+b1 (
+b1 <
+b0 !
+b0 =
+0%
+b10 ?
+b1 >
+1+
+b11 ,
+b11 .
+#100
+0+
+#105
+b1 (
+b1 <
+b10 )
+b10 ;
+b11 ?
+b10 >
+1+
+#110
+0+
+#115
+1'
+b0 (
+b0 <
+b0 )
+b0 ;
+b100 ?
+b11 >
+1+
+#120
+0+
+#125
+b1 !
+b1 =
+1"
+0'
+b0 ?
+b100 >
+1+
+#130
+0+
+#135
+1#
+b10 (
+b10 <
+1%
+0"
+b10 !
+b10 =
+b1 ?
+b0 >
+1+
+#140
+0+
+#145
+b1 )
+b1 ;
+0#
+b1 (
+b1 <
+b0 !
+b0 =
+0%
+b10 ?
+b1 >
+1+
+b100011 ,
+b100011 .
+#150
+0+
+#155
+b1 (
+b1 <
+b10 )
+b10 ;
+b101 ?
+b10 >
+1+
+#160
+0+
+#165
+1'
+1$
+b0 (
+b0 <
+b0 )
+b0 ;
+b0 ?
+b101 >
+1+
+#170
+0+
+#175
+1#
+b10 !
+b10 =
+b10 (
+b10 <
+1%
+0$
+0'
+b1 ?
+b0 >
+1+
+#180
+0+
+#185
+b1 )
+b1 ;
+0#
+b1 (
+b1 <
+b0 !
+b0 =
+0%
+b1010 ?
+b1 >
+1+
+b1100011 ,
+b1100011 .
+#190
+0+
+#195
+1&
+b1 *
+b1 :
+b0 (
+b0 <
+b10 )
+b10 ;
+b0 ?
+b1010 >
+1+
+#200
+0+
+#205
+1#
+b10 !
+b10 =
+b10 (
+b10 <
+1%
+0&
+b0 )
+b0 ;
+b0 *
+b0 :
+b1 ?
+b0 >
+1+
+#210
+0+
+#215
+b1 )
+b1 ;
+0#
+b1 (
+b1 <
+b0 !
+b0 =
+0%
+b1010 ?
+b1 >
+1+
+#220
+0+
+#225
+1&
+b1 *
+b1 :
+b0 (
+b0 <
+b10 )
+b10 ;
+b0 ?
+b1010 >
+1+
+#230
+0+
+#235
+1#
+b10 !
+b10 =
+b10 (
+b10 <
+1%
+0&
+b0 )
+b0 ;
+b0 *
+b0 :
+b1 ?
+b0 >
+1+
+#240
+0+
+#245
+b1 )
+b1 ;
+0#
+b1 (
+b1 <
+b0 !
+b0 =
+0%
+b1010 ?
+b1 >
+1+
+#250
+0+
+#255
+1&
+b1 *
+b1 :
+b0 (
+b0 <
+b10 )
+b10 ;
+b0 ?
+b1010 >
+1+
+#260
+0+
+#265
+1#
+b10 !
+b10 =
+b10 (
+b10 <
+1%
+0&
+b0 )
+b0 ;
+b0 *
+b0 :
+b1 ?
+b0 >
+1+
+#270
+0+
+#275
+b1 )
+b1 ;
+0#
+b1 (
+b1 <
+b0 !
+b0 =
+0%
+b1010 ?
+b1 >
+1+
+#280
+0+
+#285
+1&
+b1 *
+b1 :
+b0 (
+b0 <
+b10 )
+b10 ;
+b0 ?
+b1010 >
+1+
+#290
+0+
+#295
+1#
+b10 !
+b10 =
+b10 (
+b10 <
+1%
+0&
+b0 )
+b0 ;
+b0 *
+b0 :
+b1 ?
+b0 >
+1+
+#300
+0+
+#305
+b1 )
+b1 ;
+0#
+b1 (
+b1 <
+b0 !
+b0 =
+0%
+b1010 ?
+b1 >
+1+
