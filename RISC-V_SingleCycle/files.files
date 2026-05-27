@@ -1,0 +1,10 @@
+singleCycleTop_tb.sv
+singleCycleTop.v
+control_unit.v
+extend.v
+alu_decoder.v
+ALU.v
+instruction_memory.sv
+main_decoder.v
+register_file.v
+data_memory.sv

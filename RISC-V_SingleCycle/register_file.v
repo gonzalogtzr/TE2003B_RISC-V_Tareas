@@ -6,9 +6,10 @@ module register_file (
 	output reg [31:0] RD1, RD2
 );
 
-	reg [31:0] REG [31:0];
+	//reg [31:0] REG [31:0];
+	reg [31:0] REG [0:31];
 	
-	always @(*)
+	always @(posedge clk)
 		begin
 		RD1=REG[A1];
 		RD2=REG[A2];

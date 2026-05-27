@@ -18,12 +18,4 @@ module data_memory (
 		RD = data_mem[A[31:2]];
 	end
 
-	/*always @(posedge clk)
-		begin
-		if (WE == 1)
-			data_mem[A] <= WD;
-		else
-			RD <= data_mem[A];
-		end*/
-
 endmodule
